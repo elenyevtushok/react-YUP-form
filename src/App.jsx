@@ -7,6 +7,7 @@ import { FeatureA } from './components/FeatureA'
 function App() {
 	return(
 		<div className='App'>
+			<h1>Registration form</h1>
 			<Form />
 			<FeatureA />
 			<FeatureB />
