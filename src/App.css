@@ -39,3 +39,14 @@ form {
 p {
 	color: red;
 }
+
+.submit-button{
+	background-color: green;
+	color: aliceblue;
+	font-size: 18px;
+	border: none;
+	height: 30px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+
+}

@@ -30,7 +30,7 @@ export const Form = () => {
 			<p>{errors.password?.message}</p>
 			<input type="password" placeholder='Confirm Password' {...register("confirmPassword")} />
 			<p>{errors.confirmPassword?.message}</p>
-			<input type="submit" />
+			<input className='submit-button' type="submit" />
 		</form>
 	)
 }
